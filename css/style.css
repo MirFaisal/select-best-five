@@ -1,0 +1,258 @@
+/* common style start*/
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.btn-select {
+  padding: 10px 81px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #015196;
+}
+
+.btn-select:hover {
+  color: #ffffff;
+  background: #013765;
+}
+
+.btn-select:active {
+  color: #ffffff;
+  background: #013765;
+}
+
+#player-expenses {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+#total-amount {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ff5e19;
+}
+/* common style end*/
+/* headr style start */
+#header .main {
+  margin-block-start: 100px;
+  text-align: center;
+}
+
+#header .main .center .text .hero-text {
+  position: relative;
+  margin-block-end: 28px;
+  font-family: "Berkshire Swash";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 94px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ff5e19;
+}
+
+#header .main .center .text .hero-text::after {
+  content: url(../images/underline/Line\ Marker.png);
+  position: absolute;
+  right: -10px;
+  top: 40px;
+}
+
+#header .main .center .text .info-text {
+  width: 735px;
+  margin-inline: auto;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+#header .main .right .card-image {
+  inset: 10px 50px 50px 50px;
+}
+/* header style end */
+
+/* player section style start */
+#main {
+  padding-block: 75px;
+  background: rgba(46, 46, 46, 0.881);
+}
+
+#main .wrapper .players {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#main .wrapper .players .player .player-img {
+  width: 100%;
+  height: 204px;
+}
+
+#main .wrapper .players .player .player-info {
+  padding-inline: 15px;
+  padding-block: 20px;
+  background: #000;
+}
+
+#main .wrapper .players .player .player-info .player-name {
+  margin-block-end: 8px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+#main .wrapper .players .player .player-info .assist-goal {
+  margin-block-end: 20px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #b3b3b3;
+}
+
+#main .wrapper .Expenses {
+  display: flex;
+  flex-direction: column;
+}
+
+#main .wrapper .expenses .selected {
+  margin-block-end: 22px;
+  padding: 10px 20px;
+  height: 371px;
+  background: #0d0d0d;
+}
+
+#main .wrapper .expenses .selected .hero-text {
+  position: relative;
+  margin-block-end: 30px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+#main .wrapper .expenses .selected .hero-text::after {
+  content: url(../images/underline/Ureg-Ureg\ Marker.png);
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+#main .wrapper .expenses .selected .list #selected-players {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#main .wrapper .expenses .selected .list #selected-players li {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  list-style: decimal;
+}
+
+#main .wrapper .expenses .budget {
+  height: 514px;
+  padding: 10px 20px;
+  background: #0d0d0d;
+}
+
+#main .wrapper .expenses .budget .from {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#main .wrapper .expenses .budget .hero-text {
+  position: relative;
+  margin-block-start: 10px;
+  margin-block-end: 50px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+}
+
+#main .wrapper .expenses .budget .hero-text::after {
+  content: url(../images/underline/Ureg-Ureg\ Marker.png);
+  position: absolute;
+  top: 100%;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+#main .wrapper .expenses .budget label,
+#main .wrapper .expenses .budget p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #afafaf;
+}
+
+#main .wrapper .expenses .budget input {
+  width: 121px;
+  height: 42px;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+#main .wrapper .expenses .budget .btn-select {
+  padding: 10px 50px;
+}
+/* player section style End */

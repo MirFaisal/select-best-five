@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Best Five</title>
+    <!-- remote css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- local css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- main containt start-->
+    <header id="header">
+      <div class="container-fluid">
+        <div class="row main">
+          <div
+            class="col-3 left d-flex justify-content-start align-items-end p-0"
+          >
+            <img
+              src="./images/banner/hero.png"
+              alt="hero-image"
+              class="hero-img"
+            />
+          </div>
+          <div
+            class="col-6 center d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="text">
+              <h1 class="hero-text">Select Your Best Five</h1>
+              <p class="info-text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-3 right d-flex justify-content-end align-items-end position-relative p-0"
+          >
+            <img
+              src="./images/banner/football.png"
+              alt="football"
+              class="football-image"
+            />
+            <img
+              src="./images/banner/Card-psg.png"
+              alt=""
+              class="card-image position-absolute"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main containt end-->
+
+    <!-- players section start -->
+    <main id="main">
+      <div class="container">
+        <div class="row wrapper">
+          <div class="col-9 players" onclick="playerSelect()">
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/erling haalan.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Erling Haaland</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img src="./images/player/Messi.jpeg" alt="" class="player-img" />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Lionel Messi</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/Virgil van Dijk.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Virgil van Dijk</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/Manuel Neuer.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Manuel Neuer</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/Neymar.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Neymar</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/Cristiano ronaldo.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Cristiano Ronaldo</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/kylian mbappe.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Kylian Mbappe</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/Joshua Kimmich.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Joshua Kimmich</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/Robert Lewandowski.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Robert Lewandowski</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/Thomas Muller.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Thomas Muller</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/Trent Alexander.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Trent Alexander</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+            <!-- player -->
+            <div class="player border border-secondary">
+              <!-- player images -->
+              <img
+                src="./images/player/Kevin De Bruyne.jpeg"
+                alt=""
+                class="player-img"
+              />
+              <!-- players info -->
+              <div class="player-info text-center">
+                <h4 class="player-name">Kevin De Bruyne</h4>
+                <p class="assist-goal">36 Goals . 120 Assist</p>
+                <!-- select button -->
+                <button class="btn btn-select">Select</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 expenses">
+            <!-- selected players -->
+            <div class="selected">
+              <h3 class="hero-text">Selected - V</h3>
+              <div class="list">
+                <ul id="selected-players"></ul>
+              </div>
+            </div>
+            <!-- Budget -->
+            <div class="budget">
+              <h3 class="hero-text">Budget</h3>
+              <div class="from text-center">
+                <!-- player budget -->
+                <div class="d-flex justify-content-between align-items-center">
+                  <label for="">Per Player</label>
+                  <input id="per-player-budget" type="text" />
+                </div>
+                <button onclick="calculatePlayesCost()" class="btn btn-select">
+                  Calculate
+                </button>
+
+                <!-- players total abuget amount -->
+                <div class="d-flex justify-content-between align-items-center">
+                  <p>Player Expense</p>
+                  <p>$<span id="player-expenses"></span></p>
+                </div>
+
+                <!-- stuf budget -->
+                <div class="d-flex justify-content-between align-items-center">
+                  <label for="">Manager</label>
+                  <input type="text" id="manager-budget" />
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <label for="">Coach</label>
+                  <input type="text" id="coach-budget" />
+                </div>
+
+                <button onclick="total()" class="btn btn-select">
+                  Calculate Total
+                </button>
+
+                <!-- total Expenses -->
+                <div class="d-flex justify-content-between align-items-center">
+                  <p>Total</p>
+                  <p>$<span id="total-amount"></span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- players section end -->
+
+    <!-- main containt end -->
+    <!-- bootstrap css -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- local scriptt -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
